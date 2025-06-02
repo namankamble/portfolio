@@ -397,7 +397,7 @@ obile-nav-toggle.bi-x {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.5);
+    /* background: rgba(255, 255, 255, 0.5); */
     position: absolute;
     bottom: -60px;
     top: 0px;
@@ -406,14 +406,39 @@ obile-nav-toggle.bi-x {
   }
 
   #hero h1 {
-    font-size: 28px;
+    font-size: 38px;
     line-height: 36px;
   }
 
   #hero h2 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
-    color: #9c9c9c;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+
+@media (max-width: 512px) {
+  #hero:before {
+    content: "";
+    /* background: rgba(255, 255, 255, 0.5); */
+    position: absolute;
+    bottom: -60px;
+    top: 0px;
+    left: 0;
+    right: 0;
+  }
+
+  #hero h1 {
+    font-size: 38px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
   }
 }
 
